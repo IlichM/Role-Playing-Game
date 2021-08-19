@@ -41,7 +41,7 @@ public abstract class CharacterParametrs implements Destroyer {
     public int getRandomValue() { return (int) (Math.random()*100); }
 
     @Override
-    public String toString() { return String.format("%sздоровье %d:",name,health); }
+    public String toString() { return String.format("%s здоровье %d:",name,health); }
 
     @Override
     public int attack() {
